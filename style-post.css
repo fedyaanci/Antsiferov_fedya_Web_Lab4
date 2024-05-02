@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*navigation */
+.nav_logo{
+    margin: 3px 500px 3px 0 ;
+}
+nav li{
+    display: inline-block; /* эл-ты списка друз га другом на одной строке */
+    font-size: 12px;
+    font-family: "oxygen";
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+nav{
+    margin: 17px 350px;
+    text-align: center;
+    display: inline-block;
+}
+.part_of_nav a{
+    margin: 30px 19.6px;
+    font-family: "oxygen";
+    font-size: 12px;
+    font-weight: 400;
+    color: #2E2E2E;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+}
+.edge li{
+    display: inline;
+}
+/*navigation */
+
+
+
+/*header*/
+header {
+    text-align: center;
+    margin: 89px 250px 0 250px;
+}
+header h1{
+    margin: -7px 221px 0px 221px;
+    font-family: "lora";
+    font-size: 50px;
+    font-weight: 400;
+    color: #2E2E2E;
+    line-height: 51px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+}
+header p{
+    margin: 20px 225px 64px 225px;
+    font-family: "oxygen";
+    font-size: 17px;
+    font-weight: 400;
+    color: #2E2E2E;
+    opacity: 63%;
+    line-height: 20px;
+}
+/*header*/
+
+/*main*/
+.image{
+    display: inline-table;
+    width: 100%;
+    height: 534px;
+
+}
+br{
+    display: block;
+    margin: 30px 0;
+}
+main{
+    background-color: #F7F7F7;
+    padding: 140px 245px;
+}
+
+main p{
+    font-family: "oxygen";
+    font-size: 24px;
+    font-weight: 400;
+    color: #101315;
+    line-height: 35px;
+}
+
+/*main*/
+
+/*footer*/
+footer{
+    padding: 28px 340px;
+    background-color: #4d565d;
+    background-image: url('static/image/village_in_amount.jpg');
+    background-blend-mode: overlay;
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part_of_footer{
+    margin: 30px 20px 10px 0;
+    text-decoration: none;
+    font-family: "oxygen";
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 60%;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.footer_logo{
+    margin: 3px 550px 0 10px;
+    font-family: "lora";
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+/*footer*/
