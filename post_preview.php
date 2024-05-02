@@ -3,7 +3,7 @@
 <div class="card-item__button" style= 'background-color: <?= $post['button-colour']?>' ><?= $post['button-text'] ?> </div>
 <div class="card-item-align">
     <div class="card-item__name"><?= $post['title'] ?></div>
-    <a class="card-item__about" title = '<?= $post['title'] ?>' href= '/post.php?id= <?= $post['id'] ?>'> <?= $post['subtitle'] ?> </a>
+    <div class="card-item__about"><?= $post['subtitle'] ?></div>
     <div class="card-item__user">
         <div class="user-photo">
             <img src=<?= $post['photo-author']?> class="view-photo">
